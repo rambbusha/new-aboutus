@@ -1,0 +1,118 @@
+.founders{
+    text-align: center;
+    margin: 0;
+    padding: 50px 0px 30px;
+    background: #F9F7F8;
+    color: #422736;
+}
+
+
+.founders_section_description h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+.founders_section_description h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.founders_section_description{
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+
+.founders_team_wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 100%;
+    padding: 10px 0;
+}
+.founder:not(:last-child) {
+    margin-right: 20px;
+}
+.founder {
+    display: flex;
+    width: 120px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.founders_team_inner {
+    display: flex;
+}
+
+.founder_info h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.founder_info p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+.founder_avatar {
+    width: 110px;
+    height: 110px;
+}
+.founder_avatar .avatar{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+}
+
+
+a.founders_video_button {
+    background: #F38181;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px 55px;
+    margin-top: 60px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: .1s linear all;
+}
+a.founders_video_button:hover{
+    background: #ea6e6e;
+    transform: translate(-2px , -2px);
+    box-shadow: 2px 3px 4px rgba(0,0,0,.3)
+}
+
+
+
+.founders ::-webkit-scrollbar {
+    width: 20px;
+    height: 5px;
+}
+.founders ::-webkit-scrollbar-thumb {
+    background: #a4e4dc;
+    border-radius: 20px;
+}
+.founders ::-webkit-scrollbar-track {
+background: #ebf6f4;
+border-radius: 20px;
+}
+.founders ::-webkit-scrollbar-button {
+    width: 50px;
+    height: 50px;
+}
+
+
+@media screen and (min-width: 720px){
+    .founders{
+        padding: 50px 0px 30px;
+    }
+    .founders_team_wrapper{
+        width: 100%;
+        justify-content: center;
+    }
+    .founder-scroller-inner{
+        padding: 0;
+    }
+}
